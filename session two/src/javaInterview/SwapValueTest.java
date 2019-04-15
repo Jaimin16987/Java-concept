@@ -6,11 +6,18 @@ public class SwapValueTest {
 	// this following code swap the value without use 3rd variable	
 		int a = 20;
 		int b = 10;
-		
-		a = a+b;
-		b = a-b;
-		a = a-b;
-		
+	//without using third variable: using + operator
+		a = a+b; //30
+		b = a-b; //20
+		a = a-b; //10
+	// by using * operator	
+//		a = a*b; //200
+//		b = a/b; //20
+//		a = a/b; //10
+	// by using XOR operator
+//		a = a^b;
+//		b = a^b;
+//		a = a^b;
 		
 		
 		System.out.println("Valu of a "+ a);
