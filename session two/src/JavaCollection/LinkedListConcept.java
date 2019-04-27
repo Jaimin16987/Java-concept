@@ -29,17 +29,17 @@ public class LinkedListConcept {
 		for(int i=0;i<L1.size();i++){
 			System.out.println(L1.get(i));
 		}
-		//advance for loop
-		System.out.println("=> print with advance for loop (each)");
-		for(String j:L1){
-			System.out.println(j);
-		}
+//		//advance for loop
+//		System.out.println("=> print with advance for loop (each)");
+//		for(String j:L1){
+//			System.out.println(j);
+//		}
 		//iterator
-		System.out.println("=> print with iterator");
-		Iterator<String> it = L1.iterator();
-		 while(it.hasNext()){
-			 System.out.println(it.next());
-		 }
+//		System.out.println("=> print with iterator");
+//		Iterator<String> it = L1.iterator();
+//		 while(it.hasNext()){
+//			 System.out.println(it.next());
+//		 }
 		
 		
 	}
