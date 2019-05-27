@@ -17,11 +17,11 @@ public class HasMapConcept {
         mymap1.put(1, "test2");
         mymap1.put(3, "BA");
         
-        System.out.println(mymap1.size());
-        System.out.println(mymap1);
-        System.out.println(mymap1.keySet());
-        System.out.println(mymap1.values());
-        
+//        System.out.println(mymap1.size());
+//      System.out.println(mymap1);
+//        System.out.println(mymap1.keySet());
+//        System.out.println(mymap1.values());
+//        
         for(int key : mymap1.keySet()){
         	System.out.println(key+" : "+mymap1.get(key));
         }
